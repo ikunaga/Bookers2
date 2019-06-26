@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+.header {
+	background-color: black;
+}
+
+.navbar-header {
+	color: white;
+	font-size: 20px;
+}
+
+.sr-only {
+	color: white;
+	float: left;
+}
+
+.menubar {
+	display: inline;
+	padding-left: 100px;
+	color: gray;
+	text-decoration: none;
+}
+
+
+.top-body {
+	text-align: center;
+}
+
+.user-newbook {
+	margin-top: 180px;
+}
+
+.profile-container {
+	width: 500px;
+}
+
+.profile-edit {
+	margin-top: 120px;
+}
+
+table {
+ border-collapse: collapse;
+ width: 200px;
+}
+ 
+th,td {
+ border: solid 1px #ccc;
+ padding: 5px;
+ width: 50px;
+}
+ 
+.book-all {
+ display: inline;
+}
+
+.book-detail {
+ width: 200px;
+}
+
